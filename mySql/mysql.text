@@ -1,0 +1,35 @@
+ CREATE DATABASE pmySql;
+    USE pmySql;
+    CREATE TABLE tabla1(
+        id INT AUTO_INCREMENT,
+        campoTexto VARCHAR(100),
+        PRIMARY KEY(id)
+    ); 
+
+    INSERT INTO tabla1 VALUES(NULL, "Valor 1 CampoTexto");
+    INSERT INTO tabla1 VALUES(NULL, "Valor 2 CampoTexto");
+    INSERT INTO tabla1 VALUES(NULL, "Valor 3 CampoTexto");
+
+    #Procedimiento
+    DELIMITER $$
+    CREATE PROCEDURE todoTabla1()
+    BEGIN
+        SELECT * FROM tabla1;
+    END$$
+    DELIMITER ;
+
+    CALL todoTabla1();
+
+    #Funcion
+    DELIMITER $$
+    CREATE FUNCTION primerID() RETURNS INT DETERMINISTIC
+    BEGIN
+        DECLARE r INT;
+        SELECT id INTO r FROM tabla1 LIMIT 1;
+        RETURN r;
+    END$$
+    DELIMITER ;
+
+    SELECT primerID();
+    
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
