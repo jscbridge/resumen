@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles</title>
+</head>
+<body>
+    <div><input type="for" placeholder="Nº de vueltas" value="Ya"><button onclick="bFor()">Bucle For</button></div>
+    <div><input type="while" placeholder=""><button onclick="bWhile()">Bucle While</button></div>
+    <div><input type="doWhile" placeholder=""><button onclick="bDWhile()">Bucle do While</button></div>
+
+    <div>
+        <img src="" alt="">
+            <p id="salida"></p>
+        </img>
+    </div>
+</body>
+    <script>
+        function bFor(){
+            var contador = 0;
+            var num =  parseInt(document.querySelectorAll("input")[0].value);
+            for (let i = 0; i < num; i++) {
+               contador++; 
+            }
+            console.log(contador)
+            document.getElementById("salida").innerText = contador;
+            document.getElementsByTagName("img").src="https://images.ecestaticos.com/6uBjSmsBorRk6l_IHAxkBS1JCwE=/114x0:1997x1410/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F721%2F122%2F714%2F72112271431cb1078c3fe3e75ad5ab41.jpg"
+
+        }
+    </script>
+</html>
