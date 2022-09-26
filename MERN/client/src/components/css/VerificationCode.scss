@@ -1,0 +1,92 @@
+.VerificationCodes {
+
+    margin        : 60% auto;
+    display       : flex;
+    flex-direction: column;
+    width         : 85%;
+
+    >p {
+        align-items: center;
+        width      : 100%;
+    }
+}
+
+.VerificationCode {
+    display        : flex;
+    justify-content: space-between;
+
+    >input {
+        width        : 72px;
+        height       : 72px;
+        left         : 276px;
+        top          : 106px;
+        font-size    : 2rem;
+        border-radius: 1%;
+        border       : 1.5px solid #B3B3B3;
+        box-sizing   : border-box;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+}
+
+.textSMS {
+    width: 80%;
+    /* Text/L */
+
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 22px;
+    line-height: 36px;
+    /* identical to box height, or 164% */
+
+    display    : flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.textInfo {
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 24px;
+
+
+
+    color: #000000;
+
+}
+
+.button-div {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    bottom        : 20%;
+
+
+
+    >button {
+        margin-top   : 260px;
+        width        : 100%;
+        border-style : none;
+        background   : #009E9E;
+        padding      : 8px;
+        color        : white;
+        border       : 1.5px solid #B3B3B3;
+        box-sizing   : border-box;
+        border-radius: 4px;
+
+        >a {
+            color: white;
+            font-weight: 600;
+            font-size  : 16px;
+            line-height: 26px;
+        }
+
+
+
+    }
+}

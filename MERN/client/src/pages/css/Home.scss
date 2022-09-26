@@ -1,0 +1,103 @@
+.Home {
+    margin-top    : 40%;
+    display       : flex;
+    flex-direction: column;
+
+    >button {
+        padding    : 3%;
+        margin     : 2%;
+        width      : 50%;
+        margin-left: 25%;
+    }
+}
+
+.Bienvenida {
+    margin-left: 5%;
+    width      : 100%;
+
+    >img {
+        width: 60%;
+    }
+}
+
+.text {
+    width      : 80%;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size  : 21px;
+    line-height: 36px;
+
+}
+
+.text2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size  : 18px;
+    line-height: 30px;
+    margin-top : 8%;
+
+}
+
+.buttons {
+    width          : 100%;
+    height         : 120px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    padding        : 10px 16px;
+    margin-top     : 60%;
+    margin-left    : auto;
+  
+}
+
+.login {
+    border-style : none;
+    width        : 100%;
+    background   : #009E9E;
+    border-radius: 4px;
+    padding      : 8px;
+
+    >a {
+        font-style : none;
+        color      : white;
+        font-weight: 600;
+        font-size  : 16px;
+        line-height: 26px;
+    }
+
+}
+
+.login:active {
+    background: #004747;
+}
+
+.register {
+    border-style : none;
+    color        : #009E9E;
+    width        : 100%;
+    background   : white;
+    border-radius: 4px;
+    border       : 1px solid #009E9E;
+    padding      : 8px;
+
+    >a {
+        font-style: none;
+        color     : #009E9E;
+
+    }
+}
+
+.register:active {
+    background: #009E9E;
+
+    >a {
+
+        color: white;
+    }
+}
+
+
+
+button {
+    border-radius: 4px;
+}

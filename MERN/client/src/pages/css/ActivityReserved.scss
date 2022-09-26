@@ -1,0 +1,66 @@
+.message-info {
+    display              : grid;
+    grid-template-columns: 100%;
+    position             : absolute;
+    margin-top           : 50vh;
+    width                : 80%;
+    margin-left          : 10%;
+    padding              : 5%;
+    background-color     : rgb(252, 252, 252);
+
+    >.uno {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size  : 22px;
+        line-height: 30px;
+        margin-top : 5%;
+    }
+
+    >.dos {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size  : 16px;
+        line-height: 20px;
+    }
+}
+
+.button-cancelar {
+
+    width        : 100%;
+    background   : white;
+    border-radius: 4px;
+    border       : 1px solid #009E9E;
+
+
+    >p {
+        border-style: none;
+        color       : #009E9E;
+        font-family : 'Poppins';
+        font-weight : 400;
+        font-size   : 18px;
+    }
+}
+
+.si {
+    background-color: #009E9E;
+    color           : white;
+}
+.si:hover{
+    background-color: #004747;
+}
+
+.button-cancelar:hover {
+    background: #009E9E;
+
+    >p {
+        color: white;
+    }
+}
+
+
+.container-buttons-message {
+
+
+    display              : grid;
+    grid-template-columns: 50% 50%;
+}

@@ -1,0 +1,31 @@
+.Navbar {
+    position: fixed;
+    bottom: 0%;
+    background-color: white;
+    width: 105%;
+    padding-top: 5%;
+    margin-left: -5%;
+    padding-bottom: 5%;
+
+    >ul {
+        width          : 100%;
+        display        : flex;
+        justify-content: space-around;
+        list-style     : none;
+
+        >li {
+            display       : flex;
+            flex-direction: column;
+
+            >img {
+                margin: auto;
+            }
+        }
+
+  }
+
+    >.icons {
+        margin-left: 3px;
+    }
+}
+

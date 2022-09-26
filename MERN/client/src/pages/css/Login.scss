@@ -1,0 +1,54 @@
+.Login {
+    justify-content: center;
+    width          : 85%;
+    margin-top     : 50%;
+    display        : flex;
+    flex-direction : column;
+    margin         : 50% auto;
+
+    >label {
+        font-family: 'Poppins';
+        font-style : normal;
+        font-weight: 400, bold;
+        font-size  : 22px;
+        line-height: 36px;
+    }
+
+    >div {
+        display: flex;
+
+        padding      : 3%;
+        margin-bottom: 6%;
+        width        : 100%;
+        border       : 1.5px solid #B3B3B3;
+        box-sizing   : border-box;
+        border-radius: 4px;
+
+
+        >input {
+            border     : 0;
+            outline    : none;
+            margin-left: 1%;
+            font-family: 'Poppins';
+            
+        }
+
+    }
+
+    >button {
+        margin-top   : 360px;
+        width        : 100%;
+        border-style : none;
+        background   : #009E9E;
+        padding      : 8px;
+        color        : white;
+        border       : 1.5px solid #B3B3B3;
+        box-sizing   : border-box;
+        border-radius: 4px;
+    }
+
+    >button:focus {
+        background: #004747;
+    }
+
+}

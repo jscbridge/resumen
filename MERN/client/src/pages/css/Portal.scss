@@ -1,0 +1,107 @@
+.perfilname {
+
+    margin-left: 5%;
+    margin-top : 5%;
+
+
+
+    // Avatar del usuario
+    >img {
+        margin-right : 2%;
+        width        : 56px;
+        height       : 56px;
+        border-radius: 50%;
+    }
+
+    // Parrafo de bienvenida
+    >span {
+        color      : #004747;
+        font-family: 'Poppins';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 22px;
+        line-height: 36px;
+    }
+
+    // Nombre del usuario
+    .namebold {
+        font-weight: 700;
+        font-size  : 24px;
+    }
+
+
+
+}
+
+.navbar-top-fixed {
+    top: 15%;
+}
+
+.title-cat {
+    margin-left: 5%;
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 32px;
+    line-height: 36px;
+}
+
+
+.categoryBanner {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+
+    >button {
+        border: 50 solid color #004747;
+
+    }
+
+    // >img {
+    //     filter: grayscale(0);
+    // }
+
+    // >img:focus {
+    //     filter: grayscale(1);
+    // }
+}
+
+.title-recomended {
+    margin-top : 5%;
+    font-family: "Poppins";
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 32px;
+    line-height: 36px;
+}
+
+.cont-actividades {
+    display       : flex;
+    flex-direction: column;
+    margin-left   : 5%;
+    margin-bottom : 25%;
+
+    >a {
+        margin-bottom: 1%;
+    }
+}
+
+.imicro {
+    margin-left: 20%;
+}
+
+.buttonBackPortal {
+    border-style : none;
+    border-radius: 50%;
+    width        : 50px;
+    margin-left  : 5%;
+    margin-top   : 3%;
+
+
+
+
+    /* Primary/Primary */
+    background   : #B3B3B3;
+    opacity      : 0.4;
+    border-radius: 32.5926px;
+}

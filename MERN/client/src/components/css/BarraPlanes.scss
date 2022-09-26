@@ -1,0 +1,71 @@
+.cont-barra {
+    display        : flex;
+    justify-content: center;
+    padding-top    : 12%;
+
+
+    >.blackposition {
+        width        : 33%;
+        height       : 4px;
+        left         : calc(50% - 134px/2);
+        background   : #000000;
+        border-radius: 100px;
+    }
+}
+
+.cont-barraR {
+    display        : flex;
+    justify-content: center;
+    padding-top    : 14%;
+
+
+    >.blackposition {
+        width        : 33%;
+        height       : 4px;
+        left         : calc(50% - 134px/2);
+        background   : #000000;
+        border-radius: 100px;
+    }
+}
+
+.cont-barraPortal {
+    position        : fixed;
+    bottom          : 0%;
+    width           : 100%;
+    padding-top     : 5%;
+    margin-bottom   : 0%;
+    background-color: white;
+    display         : flex;
+    justify-content : center;
+
+
+    >.blackposition {
+        width        : 33%;
+        height       : 4px;
+        left         : calc(50% - 134px/2);
+        background   : #000000;
+        border-radius: 100px;
+
+    }
+}
+
+.cont-barraActi {
+    position        : fixed;
+    bottom          : 0%;
+    width           : 100%;
+    padding-top     : 5%;
+    margin-bottom   : 0%;
+    background-color: white;
+    display         : flex;
+    justify-content : center;
+
+
+    >.blackposition {
+        width        : 33%;
+        height       : 4px;
+        left         : calc(50% - 134px/2);
+        background   : #000000;
+        border-radius: 100px;
+
+    }
+}
