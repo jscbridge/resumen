@@ -1,0 +1,42 @@
+{
+  "name": "retotripulaciones",
+  "version": "1.0.0",
+  "description": "Final proyecto del Bootcamp con os demás cursos de The Bridge",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "follow-redirects": "^1.14.9",
+    "history": "^5.3.0",
+    "http-proxy-middleware": "^2.0.4",
+    "jest": "^27.5.1",
+    "js-tokens": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "loose-envify": "^1.4.0",
+    "mongodb": "^4.4.1",
+    "mongoose-sequence": "^5.3.1",
+    "nodemon": "^2.0.15",
+    "object-assign": "^4.1.1",
+    "regenerator-runtime": "^0.13.9",
+    "scheduler": "^0.20.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parvovirus/RetoTripulaciones.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parvovirus/RetoTripulaciones/issues"
+  },
+  "homepage": "https://github.com/Parvovirus/RetoTripulaciones#readme"
+}
